@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentRo Clinic - Cabinet Stomatologic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DentRo Clinic</div>
+            <div class="nav-links">
+                <a href="#acasa">Acasă</a>
+                <a href="#servicii">Servicii</a>
+                <a href="#despre">Despre noi</a>
+                <a href="#echipa">Echipa</a>
+                <a href="#contact">Contact</a>
+                <a href="#programare" class="btn-primary">Programare</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="acasa" class="hero">
+            <h1>Zâmbete strălucitoare, îngrijire excepțională</h1>
+            <p>Servicii stomatologice complete la cele mai înalte standarde</p>
+            <a href="#programare" class="btn-primary">Programează o consultație</a>
+        </section>
+
+        <section id="servicii">
+            <h2>Serviciile noastre</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Stomatologie Generală</h3>
+                    <p>Consultații, igienizări și tratamente complete</p>
+                </div>
+                <div class="service-card">
+                    <h3>Implantologie</h3>
+                    <p>Implanturi dentare de înaltă calitate</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ortodonție</h3>
+                    <p>Aparate dentare clasice și invizibile</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="programare" class="appointment">
+            <h2>Programează o consultație</h2>
+            <form id="appointment-form">
+                <input type="text" placeholder="Nume și prenume" required>
+                <input type="tel" placeholder="Telefon" required>
+                <input type="email" placeholder="Email" required>
+                <select required>
+                    <option value="">Selectează serviciul</option>
+                    <option value="general">Stomatologie Generală</option>
+                    <option value="implant">Implantologie</option>
+                    <option value="ortodontie">Ortodonție</option>
+                </select>
+                <button type="submit" class="btn-primary">Trimite</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Adresă: Strada Exemplu nr. 123, București</p>
+                <p>Telefon: 0700 000 000</p>
+                <p>Email: contact@dentroclinic.ro</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DentRo Clinic. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
